@@ -48,7 +48,13 @@ int main() {
 
     // Fill the array with random numbers between 0 and 9999
     for (int i = 0; i < n; ++i)
-        arr[i] = rand() % 10000;
+        //arr[i] = rand() % 1000; //Take random values
+        cin>>arr[i]; //Take user input
+    //Print numbers    
+    for(int i = 0; i< n; i++){
+      cout<<arr[i]<<" ";
+    }
+    cout<<endl;
 
     // Variables to store the results of Min, Max, Sum, and Average
     int serial_min, serial_max, serial_sum;
