@@ -1,7 +1,7 @@
 sudo apt update
-sudo apt install python3-venv
-python3 -m venv tfenv
-source tfenv/bin/activate 
+sudo apt install python3-full python3-venv
+python3 -m venv tf-env
+source ~/tf-env/bin/activate
 pip install --upgrade pip
 pip install tensorflow
 pip install notebook
