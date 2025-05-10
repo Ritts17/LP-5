@@ -150,3 +150,29 @@ int main() {
 
     return 0;
 }
+
+/*
+Enter number of nodes and edges: 6
+7
+Enter 7 edges (u v):
+0 1 
+0 2
+1 2
+1 3
+2 4
+2 5
+3 4
+Enter starting node for traversal: 0
+
+Serial BFS: 0 1 2 3 4 5 
+Parallel BFS: 0 2 1 4 5 3 
+
+Serial DFS: 0 1 2 4 3 5 
+Parallel DFS: 0 1 3 4 2 5 
+
+Time Comparison (in seconds):
+Serial BFS: 2.9591e-05
+Parallel BFS: 0.0179986
+Serial DFS: 0.00801875
+Parallel DFS: 0.0171293
+*/
