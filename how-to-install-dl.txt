@@ -8,3 +8,6 @@ pip install notebook
 pip install scikit-learn
 
 jupyter notebook -- Required Cmd for -> To Start Jupyter NoteBook
+
+Find the tfenv file command:
+cd /path/to/tf-env
